@@ -1,0 +1,135 @@
+.pogoSlider{
+	height: 100%;
+	padding: 0px !important;
+}
+.pogoSlider-slide {
+    background-size: cover;
+    height: 100%;
+}
+
+@media screen and (max-width:967px) {
+	.pogoSlider-nav-btn{
+		display: none !important;
+	}
+}
+
+.pogoSlider-nav-btn{
+	width: 10px !important;
+	height: 12px !important;
+	box-shadow: none;
+}
+
+.slider-content {
+	margin-top: 18%;
+}
+
+.slider-content h2{
+	font-size: 50px;
+	font-weight: 100;
+	color: #fff;
+	line-height: 150%;
+	margin: 0px;
+}
+.slider-content h2:after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #2578ff;
+    width: 100px;
+    padding-top: 0px;
+}
+.slider-content p{
+	font-size: 20px;
+	font-weight: 300;
+	color: #fff;
+	line-height: 180%;
+	margin-top: 20px;
+}
+
+.center-slide-content h2:after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #2578ff;
+    width: 100px;
+    padding-top: 10px;
+    margin: auto !important;
+}
+
+
+@media screen and (max-width:1200px) {
+	.pogoSlider-slide {
+	    background-size: cover;
+	}	
+	.pogoSlider{
+		height: 100%;
+	}	
+	.slider-content{
+		margin-top: 20%;
+	}	
+	.slider-content h2{
+		font-size: 30px;
+		font-weight: 100;
+		color: #fff;
+		line-height: 150%;
+		margin: 0px;
+	}
+
+	.slider-content p{
+		font-size: 18px;
+		font-weight: 100;
+		color: #fff;
+		text-align: justify;
+		line-height: 180%;
+		margin-top: 20px;
+	}	
+}
+
+
+@media screen and (max-width:769px) {
+	.pogoSlider{
+		height: 100%;
+	}	
+	.slider-content{
+		padding: 25px;
+		margin-top: 20%;
+	}	
+	.slider-content h2{
+		font-size: 30px;
+		font-weight: 100;
+		color: #fff;
+		line-height: 150%;
+		margin: 0px;
+	}	
+	.slider-content p{
+		font-size: 16px;
+		font-weight: 100;
+		color: #fff;
+		text-align: justify;
+		line-height: 180%;
+		margin-top: 20px;
+	}		
+}
+
+@media screen and (max-width:465px) {
+	.pogoSlider{
+		height: 100%;
+	}	
+	.slider-content{
+		padding: 25px;
+		margin-top: 25%;
+	}	
+	.slider-content h2{
+		font-size: 30px;
+		font-weight: 100;
+		color: #fff;
+		line-height: 150%;
+		margin: 0px;
+	}	
+	.slider-content p{
+		font-size: 16px;
+		font-weight: 100;
+		color: #fff;
+		text-align: justify;
+		line-height: 180%;
+		margin-top: 20px;
+	}		
+}
